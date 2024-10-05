@@ -1,0 +1,31 @@
+.App {
+  margin: 50px 30px;
+  padding: 25px 15px;
+  border: 1px solid #3d3d3d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container ul li {
+  width: 170px;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  list-style-type: '➡️';
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poi {
+  cursor: pointer;
+}
